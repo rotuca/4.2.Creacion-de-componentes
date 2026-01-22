@@ -1,0 +1,55 @@
+mat-card {
+  width: 380px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+mat-card-header {
+  padding: 16px;
+  margin: 0;
+  color: white;
+}
+
+mat-card-title {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+
+mat-card-content {
+  padding: 16px;
+  background-color: white;
+}
+
+mat-card-content p {
+  margin: 4px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+mat-card.funcionpanel--normal {
+  border-color: #0056b8;
+}
+
+mat-card.funcionpanel--normal mat-card-header {
+  background-color: #0056b8;
+}
+
+mat-card.funcionpanel--alternativa {
+  border-color: #ed8936;
+}
+
+mat-card.funcionpanel--alternativa mat-card-header {
+  background-color: #ed8936;
+}
+
+mat-card.funcionpanel--peligrosa {
+  border-color: #c53030;
+}
+
+mat-card.funcionpanel--peligrosa mat-card-header {
+  background-color: #c53030;
+}

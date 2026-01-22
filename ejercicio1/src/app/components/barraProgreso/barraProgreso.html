@@ -1,0 +1,7 @@
+<label class="barraProgreso" [for]="uniqueId">{{title}}</label>
+<progress class="barraProgreso" [id]="uniqueId" max="100" [value]="porcentajeRealizado">{{porcentajeRealizado}}%</progress>
+
+<div class="botones">
+    <boton (onClick)="decrementar()">Decrementar 10</boton>
+    <boton (onClick)="incrementar()">Incrementar 10</boton>
+</div>

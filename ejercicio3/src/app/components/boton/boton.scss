@@ -1,0 +1,79 @@
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+// Normal - Primaria
+.boton-normal-primaria {
+  background-color: #0056b8 !important;
+  border-color: #0056b8 !important;
+  color: #ffffff !important;
+}
+
+// Normal - Secundaria
+.boton-normal-secundaria {
+  background-color: #ffffff !important;
+  border-color: #0056b8 !important;
+  color: #0056b8 !important;
+}
+
+// Normal - Terciaria
+.boton-normal-terciaria {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #0056b8 !important;
+  text-decoration: underline;
+}
+
+// Alternativa - Primaria
+.boton-alternativa-primaria {
+  background-color: #ed8936 !important;
+  border-color: #ed8936 !important;
+  color: #ffffff !important;
+}
+
+// Alternativa - Secundaria
+.boton-alternativa-secundaria {
+  background-color: #ffffff !important;
+  border-color: #ed8936 !important;
+  color: #ed8936 !important;
+}
+
+// Alternativa - Terciaria
+.boton-alternativa-terciaria {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #ed8936 !important;
+  text-decoration: underline;
+}
+
+// Peligrosa - Primaria
+.boton-peligrosa-primaria {
+  background-color: #c53030 !important;
+  border-color: #c53030 !important;
+  color: #ffffff !important;
+}
+
+// Peligrosa - Secundaria
+.boton-peligrosa-secundaria {
+  background-color: #ffffff !important;
+  border-color: #c53030 !important;
+  color: #c53030 !important;
+}
+
+// Peligrosa - Terciaria
+.boton-peligrosa-terciaria {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #c53030 !important;
+  text-decoration: underline;
+}

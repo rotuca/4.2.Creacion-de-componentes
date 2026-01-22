@@ -1,0 +1,8 @@
+.botones-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  padding: 20px;
+  justify-content: start;
+  align-items: start;
+}
