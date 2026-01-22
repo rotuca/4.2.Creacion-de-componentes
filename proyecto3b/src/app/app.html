@@ -1,0 +1,27 @@
+<style>
+</style>
+   
+<h1 >Hola mundo</h1>
+   
+<button matButton="filled">
+  Aceptar
+</button>
+ 
+<br>
+<br>
+ 
+<boton (onClick)="alerta()">Hola mundo</boton>
+
+<br>
+<br>
+
+<boton [funcion]="'peligrosa'" (onClick)="alerta()">Hola mundo</boton>
+   
+<br>
+<br>
+
+<p>{{precio | currency}}</p>
+
+<p>{{fechaCompra | date:'shortDate'}}</p>
+
+<router-outlet />

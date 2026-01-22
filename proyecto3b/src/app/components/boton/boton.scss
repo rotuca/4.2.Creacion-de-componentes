@@ -1,0 +1,35 @@
+.boton {
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 6px;
+ 
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+ 
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+ 
+  border-color: #0056b8;
+  background-color: #0056b8;
+  color: #ffffff;
+}
+ 
+.funcion--normal {
+  border-color: #0056b8;
+  background-color: #0056b8;
+  color: #ffffff;
+}
+ 
+.funcion--alternativa {
+  border-color: #ed8936;
+  background-color: #ed8936;
+  color: #ffffff;
+}
+ 
+.funcion--peligrosa {
+  border-color: #c53030;
+  background-color: #c53030;
+  color: #ffffff;
+}
